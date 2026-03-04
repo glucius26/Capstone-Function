@@ -1,0 +1,116 @@
+.companyTitle {
+    font-family: Tommorow;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    background-color: #273140;
+    padding: 15px;
+    margin: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    
+}
+
+.logo-img {
+    
+    max-width: 300px; 
+    max-height: 300px; 
+}
+
+.please-go-above-companyTitle {
+    margin-top: 140px;
+    font-family: "Tomorrow";
+    color: #32485B;
+    justify-self: center;
+    text-align: center;
+}
+body {
+    background-color: #dfedf3;
+}
+
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+        
+
+.Calendar{
+    translate: 50%;
+    max-width: 8000px;
+    margin-top: 50px;
+}
+
+footer{
+    font-family: "Tomorrow";
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    background-color: #273140;
+    padding: 15px;
+    margin-top: 4%; 
+    top: 0; 
+    left: 0; 
+    width: 98%; 
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        margin: 20px 0;
+    }
+
+    .picture-placeholder {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tanZone-box {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .companyTitle {
+        font-size: 24px;
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .team-info h1 {
+        font-size: 2em;
+    }
+
+    .team-info h4 {
+        font-size: 1.1em;
+    }
+
+    .picture-placeholder {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tanZone-box h3 {
+        font-size: 1em;
+    }
+
+    .tanZone-box p {
+        font-size: 0.85em;
+    }
+}
